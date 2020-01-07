@@ -18,7 +18,7 @@ body {
   text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 70px #e60073,
     0 0 120px #e60073, 0 0 500px #e60073;
   font-family: "Sacramento", cursive;
-  font-size: 200px;
+  font-size: 15vw;
   width: 60%;
   height: 50%;
   display: flex;
