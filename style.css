@@ -30,3 +30,16 @@ body {
     inset 0 0 75px #0200ea, inset 0 0 100px #0000c6, inset 0 0 200px #010197,
     inset 0 0 500px #010175;
 }
+
+.social {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: #ff1ef4;
+  text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 70px #e60073,
+    0 0 120px #e60073, 0 0 500px #e60073;
+}
