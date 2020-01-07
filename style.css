@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign {
+  color: #ff1ef4;
+  text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073,
+    0 0 60px #e60073, 0 0 70px #e60073;
+  font-family: "Sacramento", cursive;
+  font-size: 200px;
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ff1ef4;
+  box-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073,
+    0 0 40px #e60073, 0 0 50px #e60073, inset 0 0 10px #e60073,
+    inset 0 0 20px #e60073, inset 0 0 30px #e60073, inset 0 0 40px #e60073,
+    inset 0 0 50px #e60073;
+}
