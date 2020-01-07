@@ -15,8 +15,8 @@ body {
 
 .sign {
   color: #ff1ef4;
-  text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073,
-    0 0 60px #e60073, 0 0 70px #e60073;
+  text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 70px #e60073,
+    0 0 120px #e60073, 0 0 500px #e60073;
   font-family: "Sacramento", cursive;
   font-size: 200px;
   width: 60%;
@@ -24,9 +24,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #ff1ef4;
-  box-shadow: 0 0 10px #e60073, 0 0 20px #e60073, 0 0 30px #e60073,
-    0 0 40px #e60073, 0 0 50px #e60073, inset 0 0 10px #e60073,
-    inset 0 0 20px #e60073, inset 0 0 30px #e60073, inset 0 0 40px #e60073,
-    inset 0 0 50px #e60073;
+  border: 5px solid #7ae0fc;
+  box-shadow: 0 0 60px #0506f8, 0 0 75px #0200ea, 0 0 100px #0000c6,
+    0 0 200px #010197, 0 0 500px #010175, inset 0 0 60px #0506f8,
+    inset 0 0 75px #0200ea, inset 0 0 100px #0000c6, inset 0 0 200px #010197,
+    inset 0 0 500px #010175;
 }
