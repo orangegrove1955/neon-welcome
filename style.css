@@ -13,10 +13,9 @@ body {
   align-items: center;
 }
 
-.sign {
+#sign {
+  height: 100vh;
   color: #ff1ef4;
-  text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 70px #e60073,
-    0 0 120px #e60073, 0 0 500px #e60073;
   font-family: "Sacramento", cursive;
   font-size: 15vw;
   width: 60%;
@@ -26,10 +25,26 @@ body {
   align-items: center;
   border: 5px solid #7ae0fc;
   border-radius: 10px;
-  box-shadow: 0 0 60px #0506f8, 0 0 75px #0200ea, 0 0 100px #0000c6,
-    0 0 200px #010197, 0 0 500px #010175, inset 0 0 60px #0506f8,
-    inset 0 0 75px #0200ea, inset 0 0 100px #0000c6, inset 0 0 200px #010197,
-    inset 0 0 500px #010175;
+  animation: 0.05s ease switch-on forwards;
+  animation-delay: 1s;
+}
+
+@keyframes switch-on {
+  from {
+    color: #af18a8;
+    text-shadow: none;
+    box-shadow: none;
+    border: 5px solid #559caf;
+  }
+  to {
+    color: #ff1ef4;
+    text-shadow: 0 0 30px #e60073, 0 0 40px #e60073, 0 0 70px #e60073,
+      0 0 120px #e60073, 0 0 500px #e60073;
+    box-shadow: 0 0 60px #0506f8, 0 0 75px #0200ea, 0 0 100px #0000c6,
+      0 0 200px #010197, 0 0 500px #010175, inset 0 0 60px #0506f8,
+      inset 0 0 75px #0200ea, inset 0 0 100px #0000c6, inset 0 0 200px #010197,
+      inset 0 0 500px #010175;
+  }
 }
 
 .social {
